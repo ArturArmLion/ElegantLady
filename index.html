@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>ElegantLady</title>
+  </head>
+  <body>
+
+                      <!-- HEADER -->
+
+    <header class="header">
+      <div class="container">
+          <div class="main-menu">
+              <ul class="main-menu__top">
+                  <li class="main-menu__item"><img class="fon1" src="images/Group 1.png" alt=""></li>
+                  <li class="main-menu__item"><h1 class="text">Салон красоты</h1></li>
+                  <li class="main-menu__item"><h2 class="text2">Целостное и естественное блаженство</h2></li>
+              </ul>
+              <ul class="main-menu__right">
+                <li class="main-menu__item"><a href="" class="main-menu__link"><img src="images/Ресурс 4 1 (2).png" alt="logo"></a></li>
+            </ul>
+            <ul class="main-menu__left">
+                <li class="main-menu__item"><a href="Page2.html" class="main-menu__link">О салоне</a></li>
+                <li class="main-menu__item"><a href="Yslygi.html" class="main-menu__link">Услуги и товары</a></li>
+                <li class="main-menu__item"><a href="kontakti.html" class="main-menu__link">Контакты</a></li>
+                <li class="main-menu__item"><a href="Masters.html" class="main-menu__link">Мастера</a></li>
+                <li class="main-menu__item"><a href="avtorizaciya/login.php" class="main-menu__link"><img src="images/reg.png" alt=""></a></li>
+            </ul>
+          </div>
+      </div>
+  </header>
+
+                   <!-- MAIN  -->
+
+  <section class="main">
+    
+    <div class="sale">
+      <img class="krugi" src="images/Group 9.png" alt="">
+    </div>
+
+    <div class="poloska">
+      <p class="zag">Услуги</p>
+    </div>
+
+    <div class="main-container">
+      <img class="group1" src="images/Group 3.png" alt="">
+      <img class="group2" src="images/Group 4.png" alt="">
+      <img class="group3" src="images/Group 5.png" alt="">
+      <img class="group4" src="images/Group 6.png" alt="">
+    </div>
+
+    <div class="poloska3">
+      <p class="zag2">Пример работ</p>
+      </div>
+
+    <div class="container2">
+      <h2 class="strijki">Стрижки</h2>
+      <div class="srtjkijen">
+        <img src="images/image 11.png" alt="">
+        <img src="images/image 12.png" alt="">
+        <img src="images/image 13.png" alt="">
+        <img src="images/image 19.png" alt="">
+        <img src="images/image 20.png" alt="">
+      </div>
+
+      <div class="srtjkimuj">
+        <img src="images/image 15.png" alt="">
+        <img src="images/image 14.png" alt="">
+        <img src="images/image 16.png" alt="">
+        <img src="images/image 17.png" alt="">
+        <img src="images/image 18.png" alt="">
+      </div>
+
+      <h2 class="manikur">Маникюр</h2>
+      <div class="manik">
+        <img src="images/image 21.png" alt="">
+        <img src="images/image 22.png" alt="">
+        <img src="images/image 23.png" alt="">
+        <img src="images/image 24.png" alt="">
+        <img src="images/image 25.png" alt="">
+      </div>
+
+      <h2 class="kosmetologia">Косметология</h2>
+      <div class="kosmet">
+        <img src="images/image 26.png" alt="">
+        <img src="images/image 27.png" alt="">
+        <img src="images/image 28.png" alt="">
+        <img src="images/image 29.png" alt="">
+        <img src="images/image 30.png" alt="">
+      </div>
+      <h2 class="massage">Массаж</h2>
+      <div class="masage">
+        <img src="images/image 31.png" alt="">
+        <img src="images/image 32.png" alt="">
+        <img src="images/image 33.png" alt="">
+        <img src="images/image 34.png" alt="">
+        <img src="images/image 35.png" alt="">
+      </div>  
+    </div>
+
+    <div class="poloska2">
+    <p class="zag3">Записаться</p>
+    </div>
+
+    <div class="container3">
+      <h1 class="text3">Оставьте заявку и менеджер <br>
+      перезвонит вам через 5 минут</h1>
+      <p class="text4">И предложит специальные условия для клиентов, <br> 
+        которые обращаются к нам в первый раз</p>
+      <form class="form" action="submit.php" method="POST">
+        <table class="table">
+          <tr class="first">
+            <td><label for="name">Имя:</label>
+            <input class="pole" type="text" id="name" name="name" placeholder="Введите имя"></td>
+
+            <td><label for="phone">Номер телефона:</label>
+            <input class="pole2" type="tel" id="phone" name="phone" required ></td>
+
+            <td rowspan="2"><button class="button" type="submit">Записаться</button></td>
+          </tr>
+
+          <tr class="second">
+            <td><label for="service">Выберите услугу:</label>
+              <select class="pole3" id="service" name="service" required>
+                <option value="стрижка">Парикмахерский отдел</option>
+                <option value="укладка">Массажный отдел</option>
+                <option value="маникюр">Косметологический отдел</option>
+                <option value="педикюр">Маникюрный отдел</option>
+            </select></td>
+            <td><label for="date">Дата и время:</label><input class="pole4" type="datetime-local" id="date" name="date" required placeholder="Дата"></td>
+          </tr>
+        </table>
+      </form>
+
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var phoneInput = document.getElementById('phone');
+
+            phoneInput.addEventListener('input', function (e) {
+                var value = phoneInput.value.replace(/\D/g, ''); // Удаляем все нечисловые символы
+                var formattedValue = '+7 ';
+
+                if (value.length > 1) {
+                    formattedValue += '(' + value.substring(1, 4);
+                }
+                if (value.length >= 5) {
+                    formattedValue += ') ' + value.substring(4, 7);
+                }
+                if (value.length >= 8) {
+                    formattedValue += '-' + value.substring(7, 9);
+                }
+                if (value.length >= 10) {
+                    formattedValue += '-' + value.substring(9, 11);
+                }
+
+                phoneInput.value = formattedValue;
+            });
+
+            // Предварительно задаём маску при загрузке
+            phoneInput.value = '+7 ';
+        });
+    </script>
+
+    </div>
+  </section>
+
+              <!-- FOOTER  -->
+
+
+  <footer class="footer">
+    <div class="footer-container">
+
+      <ul class="zagolovok-sylok">
+          <li class="zagolovok-sylok__item"><img src="images/Ресурс 4 2 (1).png" width="150px" alt=""></li>
+          <li class="zagolovok-sylok__item"><p class="data">@2018-2024</p></li>
+      </ul>
+
+      <ul class="socseti">
+          <li class="socseti__item"><p class="foot-text">Главная</p></li>
+          <li class="socseti__item"><p class="foot-text">О нас</p></li>
+          <li class="socseti__item"><p class="foot-text">Услуги и товары</p></li>
+          <li class="socseti__item"><p class="foot-text">Контакты</p></li>
+          <li class="socseti__item"><p class="foot-text">Мастера</p></li>
+      </ul>
+
+    <ul class="ikon">
+          <li class="ikon_item"><p class="follow">Подпишись</p></li>
+      <ul class="ikonki">
+        <li class="ikon__item"><a href="#"><img src="images/Instagram.png" alt=""></a></li>
+        <li class="ikon__item"><a href="#"><img src="images/Vector.png" alt=""></a></li>
+        <li class="ikon__item"><a href="#"><img  src="images/Telegram.png" alt=""></a></li>
+      </ul>
+    </ul>
+
+
+  </div>
+  <p class="inf">Информация, представленная на данном сайте не является публичной офертой или коммерческим предложением. Имеются противопоказания, необходима консультация специалиста.</p>
+
+  </footer>
+
+
+  </body>
+</html>

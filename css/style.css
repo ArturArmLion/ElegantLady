@@ -1,0 +1,433 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+      /* HEADER */
+
+.container{
+  height: 100px;
+  width: 1519.5px;
+  /* overflow: hidden; */
+}
+
+.header {
+  display: block;
+  height: 950px;
+}
+
+.main-menu {
+  text-decoration: none;
+  list-style-type: none;
+  height: 100px;
+
+}
+
+.main-menu__link {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 30px;
+  text-decoration: none;
+  padding-right: 50px;
+  font-family: Inter;
+}
+
+.main-menu__left{
+  text-decoration: none;
+  padding-right: 200px;
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  align-items: center;
+  font-size: 20px;
+  list-style-type: none;
+  justify-content: flex-end;
+  margin-top: -80px;
+}
+
+.main-menu__right {
+  text-decoration: none;
+  list-style-type: none;
+  justify-content: flex-start;
+  margin-top: -880px;
+  padding-left: 209px;
+} 
+
+.main-menu__top{
+  height: 900px;
+  /* margin-top: -90px; */
+  /* padding-top: 17px; */
+}
+
+.fon1{
+  width: 100%;
+}
+
+.text{
+  margin-top: -630px;
+  font-family: 'Alegreya SC';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 65px;
+  letter-spacing: 0.04em;
+  color: #fff;
+  margin-left: 250px;  
+  /* width: 150px; */
+}
+
+.text2{
+  margin-top: 25px;
+  margin-left: 250px;
+  font-family: 'Alegreya SC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;  
+  width: 400px;
+}
+
+
+            /* MAIN */
+
+.main{
+  /* padding-top: 895px; */
+  max-width: 1519px;
+  width: 100%;
+  text-align: center;
+  height: auto;
+}
+
+.sale{
+  width: 1519px;
+  height: 250px;
+}
+
+.krugi{
+  width: auto;
+  height: 200px;
+}
+
+
+.main-container{
+  padding-top: 50px;
+  width: 1050px;
+  text-align: center;
+  padding-left: 235px;
+  /* height: 1062px; */
+}
+
+.poloska{
+  width: 1519px;
+  background-color: #462854;
+  height: 50px;
+}
+
+.zag{
+  padding-top: 7px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.group1{
+  width: 350px;
+  height: 452px;
+  padding-right: 170px;
+}
+
+.group2{
+  width: 350px;
+  height: 452px;
+  padding-left: 170px;
+}
+
+.group3{
+  margin-top: 50px;
+  width: 350px;
+  height: 452px;
+  margin-bottom: 50px;
+  padding-right: 170px;
+}
+
+.group4{
+  margin-top: 50px;
+  width: 350px;
+  height: 452px;
+  padding-left: 170px;
+  margin-bottom: 50px;
+}
+
+.poloska3{
+  width: 1519px;
+  background-color: #462854;
+  height: 50px;
+  margin-top: 652px;
+}
+
+.zag2{
+  margin-top: -650px;
+  padding-top: 7px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.container2{
+  height: auto;
+  width: 1050px;
+  text-align: center;
+  padding-left: 235px;
+  padding-top: 50px;
+}
+
+
+.strijki{
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  /* margin-top: 50px; */
+}
+
+.srtjkijen{
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.srtjkimuj{
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.manikur{
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 50px; 
+}
+
+.manik{
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.kosmetologia{
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 50px; 
+}
+
+.kosmet{
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.massage{
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 50px; 
+}
+
+.masage{
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.poloska2{
+  width: 1519px;
+  background-color: #462854;
+  height: 50px;
+  margin-top: 50px;
+}
+
+.zag3{
+  padding-top: 7px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.container3{
+  height: auto;
+  padding-top: 50px;
+  width: 1050px;
+  padding-left: 235px;
+  text-align: start;
+}
+
+.text3{
+  letter-spacing: 3px;
+  font-size: 36px;
+}
+
+.text4{
+  font-family: 'Amita';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 121.88%;
+  letter-spacing: 0.1em;
+  color: #000000;
+  margin-top: 20px;
+}
+
+.form{
+  width: 1000px;
+  /* height: 50px; */
+  margin-top: 50px;
+ 
+}
+
+
+.pole{
+  width: 200px;
+  height: 40px;
+  border-radius: white;
+  border: 0;
+  box-shadow: -1px -1px 10px 0px rgba(0,0,0,0.5);
+}
+
+.pole2{
+  width: 200px;
+  height: 40px;
+  /* margin-left: 100px; */
+  border: 0;
+  box-shadow: -1px -1px 10px 0px rgba(0,0,0,0.5);
+}
+
+.pole3{
+  width: 200px;
+  height: 40px;
+  border: 0;
+  box-shadow: -1px -1px 10px 0px rgba(0,0,0,0.5);
+}
+
+.pole4{
+  width: 200px;
+  height: 40px;
+  border: 0;
+  box-shadow: -1px -1px 10px 0px rgba(0,0,0,0.5);
+}
+
+.table{
+  width: 500px;
+}
+
+table td{
+
+  padding: 20px;
+}
+
+.button{
+  width: 200px;
+  margin-left: 50px;
+  height: 50px;
+  background-color: #462854;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+}
+
+label{
+  padding-bottom: 5px;
+}
+
+
+  /* FOOTER  */
+
+.footer{
+  width: 1519px;
+  height: auto;
+  background-color: #462854;
+  margin-top: 50px;
+
+}
+
+.footer-container{
+  width: 1050px;
+  padding-left: 235px;
+  padding-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.zagolovok-sylok{
+  display: flex;
+  flex-direction: column;
+}
+
+.zagolovok-sylok__item{
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.data{
+  font-size: 12px;
+  color: #fff;
+}
+
+.socseti{
+  display: flex;
+  flex-direction: column
+}
+
+.socseti__item{
+  text-decoration: none;
+  list-style-type: none;
+  color: #fff;
+  font-size: 20px;
+  padding-bottom: 25px;
+}
+
+.ikon{
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.ikon__item{
+  padding-right: 45px;
+}
+
+.follow{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 20px;
+  padding-left: 65px;
+}
+
+.ikonki{
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  list-style-type: none;
+  padding-top: 75px;
+}
+
+.inf{
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 128.02%;
+  color: #FFFFFF;
+  width: 950px;
+  padding-left: 285px;
+}
+

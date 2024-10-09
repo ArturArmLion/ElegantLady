@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+        /* HEADER */
+  
+.container{
+    height: 100px;
+    width: 1519.5px;
+    background-color: #462854;
+}
+
+
+.main-menu {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 1050px;
+    padding-left: 235px;
+    align-items: center;
+}
+
+.main-menu__item{
+    overflow: hidden;
+}
+
+
+.main-menu__link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 30px;
+    text-decoration: none;
+    padding-right: 40px;
+    font-family: Inter;
+}
+
+.logo{
+    padding-top: 8px;
+    margin-right: 280px;
+}
+
+
+            /* MAIN */
+
+.main{
+    width: 1519px;
+
+}
+
+.main-container{
+    width: 1050px;
+    padding-left: 235px;
+    padding-top: 50px;
+}
+
+.zagolovok{ 
+    font-family: 'Alegreya SC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.18em;
+    color: #000000;
+}
+
+.zag2{
+    font-family: 'Alegreya SC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.18em;
+    color: #000000; 
+    padding-top: 50px; 
+}
+
+.part1{
+    display: flex;
+    flex-direction: row;
+    width: 1050px;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+
+.zag3{
+    font-family: 'Alegreya SC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.18em;
+    color: #000000; 
+    padding-top: 50px;
+}
+
+.part2{
+    display: flex;
+    flex-direction: row;
+    width: 1050px;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+
+.zag4{
+    font-family: 'Alegreya SC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.18em;
+    color: #000000; 
+    padding-top: 50px;  
+}
+
+.part3{
+    display: flex;
+    flex-direction: row;
+    width: 1050px;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+
+.zag5{
+    font-family: 'Alegreya SC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.18em;
+    color: #000000; 
+    padding-top: 50px;  
+}
+
+.part4{
+    display: flex;
+    flex-direction: row;
+    width: 1050px;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+
+.part5{
+    display: flex;
+    flex-direction: row;
+    width: 1050px;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+
+
+  /* FOOTER  */
+
+  .footer{
+    width: 1519px;
+    height: auto;
+    background-color: #462854;
+    margin-top: 50px;
+
+    }
+
+.footer-container{
+    width: 1050px;
+    padding-left: 235px;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+
+.zagolovok-sylok{
+    display: flex;
+    flex-direction: column;
+    }
+
+.zagolovok-sylok__item{
+    text-decoration: none;
+    list-style-type: none;
+    }
+
+.data{
+    font-size: 12px;
+    color: #fff;
+    }
+
+.socseti{
+    display: flex;
+    flex-direction: column
+    }
+
+.socseti__item{
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff;
+    font-size: 20px;
+    padding-bottom: 25px;
+    }
+
+.ikon{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    }
+
+.ikon__item{
+    padding-right: 45px;
+    }
+
+.follow{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 20px;
+    padding-left: 65px;
+    }
+
+.ikonki{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;
+    padding-top: 75px;
+    }
+
+.inf{
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 128.02%;
+    color: #FFFFFF;
+    width: 950px;
+    padding-left: 285px;
+    }
